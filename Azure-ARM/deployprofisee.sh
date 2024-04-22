@@ -13,9 +13,9 @@ if [ -f "$FILE" ]; then
 	exit 1;
 fi
 
-REPONAME="profisee"
-REPOURL="https://raw.githubusercontent.com/$REPONAME/kubernetes/master";
-HELMREPOURL="https://$REPONAME.github.io/kubernetes";
+REPONAME="hamzaf19/Profisee-kubernetes"
+REPOURL="https://raw.githubusercontent.com/$REPONAME/mbv";
+HELMREPOURL="https://profisee.github.io/kubernetes";
 echo $"REPOURL is $REPOURL";
 echo $"HELMREPOURL is $HELMREPOURL";
 
